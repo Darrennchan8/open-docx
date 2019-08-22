@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "open-docx",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ]
+}
