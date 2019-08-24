@@ -28,11 +28,9 @@ const baseConfig = {
 
 module.exports = (env={}) => merge(
     baseConfig,
-    env.dev || env.watch ? {
+    env.watch ? {
         mode: "development",
         devtool: 'inline-source-map',
-    } : {},
-    env.watch ? {
         watch: true,
         plugins: [
             new ExtensionReloader({
