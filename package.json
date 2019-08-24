@@ -7,13 +7,17 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
+    "build:dev": "webpack --env.dev",
+    "build:watch": "webpack --env.watch",
     "clean": "rimraf dist/*",
     "start": "node start"
   },
   "devDependencies": {
     "chrome-launch": "^1.1.4",
+    "lodash": "^4.17.15",
     "rimraf": "^3.0.0",
-    "webpack-extension-manifest-plugin": "^0.5.0"
+    "webpack-extension-manifest-plugin": "^0.5.0",
+    "webpack-extension-reloader": "^1.1.0"
   },
   "dependencies": {
     "webpack": "^4.39.2",
