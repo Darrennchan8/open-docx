@@ -12,7 +12,9 @@
   },
   "devDependencies": {
     "chrome-launch": "^1.1.4",
-    "lodash": "^4.17.15",
+    "deepmerge": "^4.0.0",
+    "extra-watch-webpack-plugin": "^1.0.3",
+    "is-plain-object": "^3.0.0",
     "rimraf": "^3.0.0",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7",

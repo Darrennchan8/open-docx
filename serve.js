@@ -8,6 +8,8 @@ const EXTENSION_PATH = resolve('dist/unpacked');
 
 let launched = false;
 
+console.log(config({watch: true}));
+
 webpack(config({
     watch: true
 }), (err, stats) => {

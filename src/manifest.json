@@ -7,6 +7,7 @@
     },
     "permissions": [
         "contextMenus",
-        "tabs"
+        "tabs",
+        "https://word-view.officeapps.live.com/wv/WordViewer/request.pdf*"
     ]
 }
